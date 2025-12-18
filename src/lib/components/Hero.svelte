@@ -1,80 +1,64 @@
 <script>
-	const logos = [
-		{ name: 'CreatorIQ', width: 100 },
-		{ name: 'PATREON', width: 100 },
-		{ name: 'flexport', width: 100 },
-		{ name: 'ramp', width: 80 },
-		{ name: 'Verkada', width: 100 },
-		{ name: 'perplexity', width: 100 },
-		{ name: 'Quora', width: 80 }
-	];
+	// Hero section
 </script>
 
-<section class="relative overflow-hidden border-b border-gray-200 bg-gray-50 pt-20 pb-16">
-	<!-- Geometric Decoration Top Right -->
-	<div class="absolute top-0 right-0 h-64 w-64 opacity-20 pointer-events-none">
-		<svg viewBox="0 0 100 100" class="h-full w-full stroke-gray-400" fill="none">
-			<path d="M0 0 L100 100 M50 0 L100 50 M0 50 L50 100" stroke-width="0.5" />
-			<rect x="50" y="0" width="50" height="50" stroke-width="0.5" />
-		</svg>
+<section class="relative overflow-hidden border-b border-gray-200 bg-white pt-32 pb-24">
+	<!-- Subtle Background Pattern -->
+	<div class="absolute inset-0 opacity-[0.02] pointer-events-none">
+		<div class="absolute inset-0" style="background-image: radial-gradient(circle at 2px 2px, #161616 1px, transparent 0); background-size: 40px 40px;"></div>
 	</div>
 
 	<div class="mx-auto max-w-[1400px] px-6">
-		<div class="max-w-3xl">
+		<div class="mx-auto max-w-4xl text-center">
 			<!-- Badge -->
-			<a href="#" class="mb-8 inline-flex items-center gap-2 rounded-full border border-purple-200 bg-purple-50 px-3 py-1 text-[10px] font-bold tracking-widest text-purple-700 hover:bg-purple-100 uppercase">
-				<span class="text-purple-500">New</span>
-				Try Juicebox Agents &rsaquo;
+			<a href="#" class="mb-8 inline-flex items-center gap-2 border-2 border-gray-950 bg-primary-400 px-4 py-2 text-[10px] font-bold tracking-widest text-gray-950 hover:bg-primary-300 uppercase transition-colors">
+				<span>⚡</span>
+				Stellantis Preferred Partner
 			</a>
 
 			<!-- Headline -->
-			<h1 class="mb-6 text-7xl font-medium tracking-tight text-gray-900">
-				Win the talent war.
+			<h1 class="mb-8 text-7xl font-bold tracking-tight text-gray-950 leading-[1.1]">
+				Lightning-fast dealership websites.
 			</h1>
 
 			<!-- Subhead -->
-			<p class="mb-10 max-w-xl text-lg leading-relaxed text-gray-600">
-				Juicebox is the <strong class="font-semibold text-gray-900">AI Recruiting Platform</strong> that understands who you're looking for. Level up your team with Search, CRM, and Agents.
+			<p class="mb-12 mx-auto max-w-2xl text-xl leading-relaxed text-gray-600">
+				Auto Genius <strong class="font-semibold text-gray-900">Speed Layer</strong> accelerates your dealership website with edge-computing technology that streams content instantly. Stop losing sales to slow load times.
 			</p>
 
 			<!-- Buttons -->
-			<div class="mb-24 flex items-center gap-4">
-				<a href="#" class="bg-gray-900 px-6 py-3 text-[11px] font-bold tracking-widest text-white transition-colors hover:bg-gray-800 uppercase">
-					Try for Free
+			<div class="mb-32 flex items-center justify-center gap-4">
+				<a href="#" class="bg-gray-950 px-8 py-4 text-[11px] font-bold tracking-widest text-primary-400 transition-colors hover:bg-gray-900 uppercase">
+					Get Started
 				</a>
-				<a href="#" class="border border-gray-200 bg-white px-6 py-3 text-[11px] font-bold tracking-widest text-gray-900 transition-colors hover:bg-gray-50 uppercase">
+				<a href="#" class="border-2 border-gray-950 bg-white px-8 py-4 text-[11px] font-bold tracking-widest text-gray-950 transition-colors hover:bg-gray-50 uppercase">
 					Book a Demo
 				</a>
 			</div>
 		</div>
 
-		<!-- Logos -->
-		<div class="flex flex-wrap items-center justify-between gap-8 border-t border-gray-200 pt-8 opacity-60 grayscale">
-			<!-- CreatorIQ -->
-			<div class="text-xl font-bold text-gray-800">CreatorIQ</div>
-			<!-- Patreon -->
-			<div class="text-xl font-black text-gray-800 tracking-tighter uppercase">PATREON</div>
-			<!-- Flexport -->
-			<div class="text-xl font-bold text-gray-800 lowercase italic">flexport</div>
-			<!-- Ramp -->
-			<div class="flex items-center gap-1 text-xl font-semibold text-gray-800 lowercase">
-				ramp <span class="text-2xl leading-none">&rlarr;</span>
+		<!-- Trusted By Section -->
+		<div class="mx-auto max-w-5xl">
+			<div class="mb-6 text-center text-[10px] font-bold tracking-widest text-gray-500 uppercase">
+				Trusted by Leading Dealership Groups
 			</div>
-			<!-- Verkada -->
-			<div class="flex items-center gap-2 text-xl font-bold text-gray-800">
-				<div class="h-5 w-5 bg-gray-800" style="clip-path: polygon(50% 0%, 0% 100%, 100% 100%);"></div>
-				Verkada
-			</div>
-			<!-- Perplexity -->
-			<div class="flex items-center gap-2 text-xl font-medium text-gray-800 tracking-tight">
-				<div class="grid grid-cols-2 gap-0.5">
-					<div class="h-1.5 w-1.5 bg-gray-800"></div><div class="h-1.5 w-1.5 bg-gray-800"></div>
-					<div class="h-1.5 w-1.5 bg-gray-800"></div><div class="h-1.5 w-1.5 bg-gray-800"></div>
+			<div class="flex flex-wrap items-center justify-center gap-12 opacity-50 grayscale">
+				<!-- Stellantis -->
+				<div class="flex items-center gap-2 text-2xl font-black text-gray-800 tracking-tight">
+					<div class="h-8 w-8 bg-gray-800 rounded-full"></div>
+					STELLANTIS
 				</div>
-				perplexity
+				<!-- Dealer.com -->
+				<div class="text-2xl font-bold text-gray-800">Dealer.com</div>
+				<!-- Dealer Inspire -->
+				<div class="text-xl font-semibold text-gray-800 tracking-wide">DealerInspire</div>
+				<!-- CDK Global -->
+				<div class="flex items-center gap-2 text-xl font-bold text-gray-800 uppercase tracking-wider">
+					CDK <span class="text-sm">GLOBAL</span>
+				</div>
+				<!-- Cox Automotive -->
+				<div class="text-xl font-bold text-gray-800">Cox Automotive</div>
 			</div>
-			<!-- Quora -->
-			<div class="text-xl font-serif font-bold text-gray-800">Quora</div>
 		</div>
 	</div>
 </section>

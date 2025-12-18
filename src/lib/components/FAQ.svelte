@@ -2,43 +2,43 @@
 	let openIndex = 0;
 	const faqs = [
 		{
-			question: "Who can use Juicebox?",
-			answer: "Juicebox is built for recruiters. If you are searching for hard-to-find talent, Juicebox is a fit for you. We work with companies ranging from Fortune 500 to boutique recruiting agencies — and hopefully, you too."
+			question: "Who is Auto Genius Speed Layer for?",
+			answer: "Speed Layer is built for automotive dealership marketing directors who need faster websites but are losing sales to slow load times. We serve dealerships of all sizes, from single rooftops to large multi-location groups."
 		},
 		{
-			question: "Can I try Juicebox for free?",
-			answer: "Yes! We offer a free trial so you can experience the power of our AI agents firsthand."
+			question: "How long does implementation take?",
+			answer: "Implementation is fast and simple. We integrate via a lightweight JavaScript tag that works with your existing CMS—no rebuild required. Most dealerships are live within days, with automated tagging requiring no IT lift from your team."
 		},
 		{
-			question: "Can I use Juicebox with my team?",
-			answer: "Absolutely. Juicebox is designed for collaboration, allowing your entire recruiting team to share insights and candidate pools."
+			question: "Will Speed Layer work with my current website platform?",
+			answer: "Yes! Speed Layer works with all major automotive CMS platforms including Dealer.com, Dealer Inspire, WordPress, CDK, and many more. Our edge-computing technology sits on top of your existing infrastructure."
 		},
 		{
-			question: "How long does it take to set up and start using Juicebox?",
-			answer: "You can get started in minutes. Our onboarding is streamlined to get you sourcing candidates immediately."
+			question: "What if something goes wrong?",
+			answer: "Speed Layer includes a built-in fail-safe that silently disables if any issues occur. Your website stays live and functional with zero risk to your dealership operations. We also provide continuous monitoring and weekly optimization updates."
 		},
 		{
-			question: "Does Juicebox have global candidate data?",
-			answer: "Yes, we have access to over 800M+ profiles globally across various industries and regions."
+			question: "How much does Speed Layer cost?",
+			answer: "Retail pricing ranges from $1,300-$2,160 per month per rooftop. Stellantis dealers receive preferred pricing, and we offer group discounts for 5+ rooftops. This is more cost-effective than boosting SEM budgets 34% to achieve equivalent conversion lift."
 		},
 		{
-			question: "Will it integrate with my ATS or CRM?",
-			answer: "We integrate with all major ATS and CRM platforms including Greenhouse, Lever, Ashby, and more."
+			question: "What kind of results can I expect?",
+			answer: "Dealerships typically see 3.2s average load time improvement, 34% conversion lift, and significant PageSpeed score increases. We provide structured reporting at T+7 days, monthly, and end-of-pilot with full analytics including engagement rate, bounce rate, and lead lifts."
 		}
 	];
 </script>
 
-<section class="py-24">
+<section class="py-24 bg-white">
 	<div class="mx-auto max-w-[1400px] px-6">
 		<div class="grid grid-cols-1 gap-16 lg:grid-cols-12">
 			<!-- Left Side -->
 			<div class="lg:col-span-4">
 				<div class="mb-4 text-[10px] font-bold tracking-widest text-gray-500 uppercase">[06] FAQ</div>
-				<h2 class="mb-6 text-4xl font-medium tracking-tight text-gray-900">Your questions, answered</h2>
+				<h2 class="mb-6 text-4xl font-bold tracking-tight text-gray-950">Your questions, answered</h2>
 				<p class="mb-8 text-lg leading-relaxed text-gray-600">
-					We're here to help. Reach out to our sales team for guidance on how to integrate Juicebox into your recruiting workflow.
+					We're here to help. Reach out to our team for guidance on how Speed Layer can accelerate your dealership website and increase conversions.
 				</p>
-				<a href="#" class="inline-block bg-gray-900 px-6 py-3 text-[11px] font-bold tracking-widest text-white transition-colors hover:bg-gray-800 uppercase">
+				<a href="#" class="inline-block bg-gray-950 px-6 py-3 text-[11px] font-bold tracking-widest text-primary-400 transition-colors hover:bg-gray-900 uppercase">
 					Book a Demo
 				</a>
 			</div>
