@@ -12,7 +12,16 @@
 		<div class="mx-auto max-w-4xl text-center">
 			<!-- Badge -->
 			<a href="#" class="mb-8 inline-flex items-center gap-2 border-2 border-gray-950 bg-primary-400 px-4 py-2 text-[10px] font-bold tracking-widest text-gray-950 hover:bg-primary-300 uppercase transition-colors">
-				<span>⚡</span>
+				<svg width="10" height="22" viewBox="0 0 567 1238" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<g clip-path="url(#clip0_hero_badge)">
+						<path d="M528.434 579.434H283.4V0H243.847L2.76704 605.746C-7.31911 631.068 11.271 658.566 38.563 658.566H283.596V1238H323.151L564.426 632.254C574.514 606.932 555.924 579.434 528.632 579.434H528.434Z" fill="currentColor"/>
+					</g>
+					<defs>
+						<clipPath id="clip0_hero_badge">
+							<rect width="567" height="1238" fill="white"/>
+						</clipPath>
+					</defs>
+				</svg>
 				Stellantis Preferred Partner
 			</a>
 
